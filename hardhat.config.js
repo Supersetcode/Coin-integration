@@ -3,6 +3,8 @@
  */
 
 require("@nomiclabs/hardhat-ethers");
+require('@nomiclabs/hardhat-waffle');
+
 require("dotenv").config();
 const { PRIVATE_KEY } = process.env;
 module.exports = {
@@ -19,11 +21,11 @@ module.exports = {
     },
   },
   solidity: {
-    version: "0.8.17",
+    version: "0.8.19",
     settings: {
       optimizer: {
         enabled: true,
-        runs: 200,
+        runs: 1000,
       },
     },
   },

@@ -1,53 +1,20 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.19;
 
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-contract waltidSoulBound is ERC721,ERC721URIStorage , Ownable{
-
-    using Counters for Counters.Counter;
-    Counters.Counter private _tokenIdCounter;
-
-    constructor() ERC721("WaltidSBT","SBT") {}
-
-    function safeMint(address to , string memory uri) public onlyOwner {
-
-        uint256 tokenId = _tokenIdCounter.current();
-        _tokenIdCounter.increment();
-        _safeMint(to, tokenId);
-        _setTokenURI(tokenId, uri);
-    
-    }
-
-
-    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage) {
-        super._burn(tokenId);
-    }
-
-    function unequip(uint256 tokenId) external  {
-        require(ownerOf(tokenId) == msg.sender , "You are not the owner of this NFT");
-        _burn(tokenId);
-    }
-
-    function revoke(uint256 tokenId) external onlyOwner{
-        _burn(tokenId);
-    }
-    
-    function tokenURI(uint256 tokenId)
-        public
-        view
-        override(ERC721, ERC721URIStorage)
-        returns (string memory)
+contract InclusiveMindMetaverseLearning is ERC20, ERC20Burnable, Ownable {
+    constructor(address initialOwner)
+        ERC20("InclusiveMindMetaverseLearning", "IMML")
+        Ownable()
     {
-        return super.tokenURI(tokenId);
+        _mint(msg.sender, 10000000 * 10 ** decimals());
     }
 
-    function _beforeTokenTransfer(address from, address to, uint256 tokenId) internal override virtual {
-        require(from == address(0) || to == address(0), "Err: token transfer is BLOCKED");   
-        super._beforeTokenTransfer(from, to, tokenId);  
+    function mint(address to, uint256 amount) public onlyOwner {
+        _mint(to, amount);
     }
-
 }

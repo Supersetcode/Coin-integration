@@ -1,16 +1,16 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/superpotato/Desktop/NFT_Manager/contracts/ExampleNFT.sol": {
-      "lastModificationDate": 1692701642461,
-      "contentHash": "ba72956b0b619e0d51c5727bcd8301ae",
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\contracts\\ExampleNFT.sol": {
+      "lastModificationDate": 1700861005114,
+      "contentHash": "cab142a2d01af490f54d063ae15b8dc1",
       "sourceName": "contracts/ExampleNFT.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -41,51 +41,16 @@
         "ExampleNFT"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
-      "lastModificationDate": 1692701731144,
-      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
-      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Counters"
-      ]
-    },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1692701731294,
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1700861830183,
       "contentHash": "e436cea06129be2c73cda4b1acc848b5",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -113,16 +78,51 @@
         "Ownable"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1692701731258,
-      "contentHash": "79ff1a7eb801a525aa315fb7a679eede",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\utils\\Counters.sol": {
+      "lastModificationDate": 1700861830023,
+      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
+      "lastModificationDate": 1700861830076,
+      "contentHash": "79ff1a7eb801a525aa315fb7a679eede",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -156,16 +156,16 @@
         "ERC721"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
-      "lastModificationDate": 1692701731258,
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
+      "lastModificationDate": 1700861830084,
       "contentHash": "8af32effd0536e2971ff8496812a5016",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -193,16 +193,16 @@
         "ERC721URIStorage"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1692701731144,
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1700861830022,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -228,16 +228,16 @@
         "Context"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1692701731144,
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1700861830014,
       "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -263,16 +263,16 @@
         "Address"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1692701731328,
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1700861830199,
       "contentHash": "cf46906c4035f51639a22265066a9e78",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -298,88 +298,16 @@
         "Strings"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1692701731268,
-      "contentHash": "ec99d946db3685a3630554aa6055bd7f",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721"
-      ]
-    },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1692701731268,
-      "contentHash": "c22d4395e33763de693fd440c6fd10e1",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721Receiver"
-      ]
-    },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1692701731151,
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1700861830053,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -407,16 +335,88 @@
         "ERC165"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1692701731268,
-      "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
+      "lastModificationDate": 1700861830145,
+      "contentHash": "ec99d946db3685a3630554aa6055bd7f",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+      "lastModificationDate": 1700861830152,
+      "contentHash": "c22d4395e33763de693fd440c6fd10e1",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
+      "lastModificationDate": 1700861830150,
+      "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -444,16 +444,16 @@
         "IERC721Metadata"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1692701731264,
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1700861830127,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -479,16 +479,204 @@
         "IERC165"
       ]
     },
-    "/home/superpotato/Desktop/NFT_Manager/contracts/soulboundNFT.sol": {
-      "lastModificationDate": 1692702530747,
-      "contentHash": "f5544a08f54414d802eb0d3eaad6c89e",
-      "sourceName": "contracts/soulboundNFT.sol",
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1700861830060,
+      "contentHash": "af7bd64e1cfefbf6cb07f2adc1a25392",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1700861830133,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1700861830134,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Burnable.sol": {
+      "lastModificationDate": 1700861830061,
+      "contentHash": "a1c7f80ae26f5b2d7d563475627fbf25",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC20.sol",
+        "../../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\contracts\\waltSoulBound.sol": {
+      "lastModificationDate": 1700863743175,
+      "contentHash": "a9e2bc0a53b10bf5a83f747a7ab90393",
+      "sourceName": "contracts/waltSoulBound.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "InclusiveMindMetaverseLearning"
+      ]
+    },
+    "C:\\Users\\fatha\\OneDrive\\Desktop\\mts\\NFT_Manager\\contracts\\soulboundNFT.sol": {
+      "lastModificationDate": 1700861005182,
+      "contentHash": "abab2946df0f82cdef12b5cff8c40ab9",
+      "sourceName": "contracts/soulboundNFT.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
           },
           "outputSelection": {
             "*": {
@@ -517,46 +705,6 @@
       ],
       "artifacts": [
         "SoulBoundTest"
-      ]
-    },
-    "/home/superpotato/Desktop/NFT_Manager/contracts/waltSoulBound.sol": {
-      "lastModificationDate": 1696599166056,
-      "contentHash": "00e3db24bd1ae6b2d61d2756c8597ae8",
-      "sourceName": "contracts/waltSoulBound.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-        "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/utils/Counters.sol",
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "waltidSoulBound"
       ]
     }
   }
